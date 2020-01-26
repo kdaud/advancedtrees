@@ -5,7 +5,7 @@ public class Google {
 	
 	public static void main(String[] args) {
 		new HelloTrees();
-		greatMessage();
+		System.out.println(greatMessage());
 	}
 	
 	public static String greatMessage() {
