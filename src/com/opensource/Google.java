@@ -4,7 +4,12 @@ package com.opensource;
 public class Google {
 	
 	public static void main(String[] args) {
-		HelloTrees obj = new HelloTrees();
+		new HelloTrees();
+		greatMessage();
+	}
+	
+	public static String greatMessage() {
+		return "Hello Java Programmers";
 	}
 	
 }
