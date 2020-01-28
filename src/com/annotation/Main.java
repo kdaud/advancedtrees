@@ -26,6 +26,8 @@ public class Main {
 		
 		int jj = obj.intValue();
 		System.out.println(jj);
+		Integer gg = jj;
+		System.out.println(gg);
 	}
 	
 }
