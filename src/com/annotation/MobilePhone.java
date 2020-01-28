@@ -10,4 +10,7 @@ package com.annotation;
 @kdaud(name = "Kdaud", email = "dkakumirizii@gmail.com")
 public class MobilePhone {
 	
+	public void code() {
+		System.out.println("God is in control");
+	}
 }
