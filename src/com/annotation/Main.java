@@ -15,6 +15,17 @@ public class Main {
 		System.out.println(Math.min(34, 27));
 		System.out.println(Math.sqrt(47));
 		System.out.println(Math.pow(7, 2));
+		exam();
+	}
+	public static void exam() {
+		int y = 60;
+		@SuppressWarnings("deprecation")
+		Integer ii = Integer.valueOf(y);
+		System.out.println(ii);
+		Integer obj = Integer.valueOf(32);
+		
+		int jj = obj.intValue();
+		System.out.println(jj);
 	}
 	
 }
