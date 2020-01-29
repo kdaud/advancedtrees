@@ -15,8 +15,10 @@ public class Grades {
 		finaMarks = points / crs;
 		DecimalFormat decimalFormat = new DecimalFormat("#.##");
 		System.out.println("Your current GPA for last semister is: " + decimalFormat.format(finaMarks));
+		System.out.println("Random value is: " + getValue());
 	}
 	
+	//@Override
 	public int getValue() {
 		Random random = new Random();
 		int myChance = random.nextInt(7);
