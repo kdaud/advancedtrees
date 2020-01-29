@@ -1,6 +1,7 @@
 package com.mycodes;
 
 import java.text.DecimalFormat;
+import java.util.Random;
 
 public class Grades {
 	
@@ -14,6 +15,12 @@ public class Grades {
 		finaMarks = points / crs;
 		DecimalFormat decimalFormat = new DecimalFormat("#.##");
 		System.out.println("Your current GPA for last semister is: " + decimalFormat.format(finaMarks));
+	}
+	
+	public int getValue() {
+		Random random = new Random();
+		int myChance = random.nextInt(7);
+		return myChance;
 	}
 
 }
