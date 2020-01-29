@@ -26,7 +26,7 @@ public class Grades {
 	}
 	
 	public Grades(int ff) {
-		Double ffDouble = 4324.3433f+46.0d;
+		Double ffDouble = 4324.3433f + 4634.0d;
 		System.out.println(ffDouble);
 	}
 
