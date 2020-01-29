@@ -24,5 +24,10 @@ public class Grades {
 		int myChance = random.nextInt(7);
 		return myChance;
 	}
+	
+	public Grades(int ff) {
+		Double ffDouble = 4324.3433f+46.0d;
+		System.out.println(ffDouble);
+	}
 
 }
