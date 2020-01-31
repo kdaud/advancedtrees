@@ -13,6 +13,7 @@ public class Grading {
 		new Grades((504.5 + 15), 107);
 		new Grades(60);
 		new Grades(70);
+		new Grades(90);
 		
 	}
 	
