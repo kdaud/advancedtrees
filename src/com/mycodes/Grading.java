@@ -3,6 +3,10 @@ package com.mycodes;
 
 public class Grading {
 	
+	static {
+		System.out.println("Am a junior developer using Java Programming");
+	}
+	
 	public static void main(String[] args) {
 		new Grades((103.5 + 15), 24);
 		System.out.println("#####################");
