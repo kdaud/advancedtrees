@@ -13,9 +13,10 @@ public class Main1 {
 				stringBuffer.append(" University!!!");
 				System.out.println(stringBuffer);
 				
-				String name = new String("Java");
-				name.charAt(3);
+				String name = new String("Javn");
+				char fna = name.charAt(3);
 				System.out.println(name);
+				System.out.println(fna);
 		}
 		}.opensource();
 		System.out.println("Am in my way to programming great things!!!");
