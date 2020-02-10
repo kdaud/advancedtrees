@@ -18,4 +18,10 @@ public class Testing implements Performance {
 		
 	}
 	
+	@Override
+	public void myTests() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }

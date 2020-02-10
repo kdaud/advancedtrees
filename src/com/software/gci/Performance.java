@@ -6,4 +6,6 @@ public interface Performance {
 	public void myGrades();
 	
 	public void name();
+	
+	public void myTests();
 }

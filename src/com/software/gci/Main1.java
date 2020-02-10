@@ -1,10 +1,9 @@
 package com.software.gci;
 
-
-public class Main {
+public class Main1 {
 	
 	public static void main(String[] args) {
-		new Testing().myGrades();
-		
+		System.out.println("Hello World in Africa");
 	}
+	
 }
