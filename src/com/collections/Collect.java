@@ -19,7 +19,9 @@ public class Collect {
 		marks.add(1);
 		marks.add(7);
 		marks.add(3);
-		
+		for (int jj : marks) {
+			System.out.println(jj);
+		}
 	}
 	
 }
