@@ -15,6 +15,7 @@ public class Codes {
 		
 		Programming<String, String, Double>student=new Programming<>();
 		student.printing("Daud Kakumirizi", "BSS", 4.86);
+		new Programmer<>("Uganda");
 	}
 	
 }

@@ -11,7 +11,7 @@ public class Programmer<G> {
 	public Programmer(String country) {
 		super();
 		this.country = country;
-		System.out.println("My Java Language Journey");
+		System.out.println("My Java Language Journey from " + country);
 	}
 	
 }
