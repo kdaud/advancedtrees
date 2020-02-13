@@ -13,6 +13,8 @@ public class Codes {
 		System.out.printf("%s", "\nHello World\n");
 		//System.out.printf("%d", 109.5);
 		
+		Programming<String, String, Double>student=new Programming<>();
+		student.printing("Daud Kakumirizi", "BSS", 4.86);
 	}
 	
 }
