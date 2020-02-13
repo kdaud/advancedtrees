@@ -7,4 +7,6 @@ public class Programming<T1, T2, T3> {
 		System.out.println("Name: " + value + " |" + " Course: " + value1 + " |" + " GPA: " + val);
 		
 	}
+	
+
 }
