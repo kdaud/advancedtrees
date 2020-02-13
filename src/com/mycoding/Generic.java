@@ -3,8 +3,8 @@ package com.mycoding;
 
 public class Generic {
 	
-	public static void printArray(Integer[] array) {
-		for (Integer element : array) {
+	public static <E> void printArray(E[] array) {
+		for (E element : array) {
 			System.out.printf("%s", element);
 		}
 	}

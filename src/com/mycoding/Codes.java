@@ -4,10 +4,14 @@ public class Codes {
 	
 	public static void main(String[] args) {
 		Integer [] points= {15,17,10,9,18,6};
-		Generic.printArray(points);
-		System.out.println("--------");
+		Character [] myname= {'H','E','L','L','O'};
 		
-		System.out.printf("%s", "Hello World");
+		Generic.printArray(points);
+		System.out.println("--------\n");
+		Generic.printArray(myname);
+		
+		System.out.printf("%s", "\nHello World\n");
+		//System.out.printf("%d", 109.5);
 		
 	}
 	
