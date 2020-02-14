@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 
 public class DOA {
 	
-	public void dosave() throws IOException {
+	public static void dosave() throws IOException {
 		Student obj = new Student();
 		obj.setStudentId(10);
 		obj.setName("Daud Kakumirizi");
