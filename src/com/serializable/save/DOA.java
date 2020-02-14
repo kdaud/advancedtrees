@@ -19,6 +19,11 @@ public class DOA {
 		obj.setName("Daud Kakumirizi");
 		obj.setCourse("Software Engineering");
 		
+		Student obf = new Student();
+		obf.setStudentId(14);
+		obf.setName("Gama Richard");
+		obf.setCourse("Computer Science");
+		
 		//saving the state of an object in the file
 		File file = new File("student.txt");
 		FileOutputStream outputStream= new FileOutputStream(file);
