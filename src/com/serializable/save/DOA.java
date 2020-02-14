@@ -13,10 +13,11 @@ public class DOA {
 		obj.setName("Daud Kakumirizi");
 		obj.setCourse("Software Engineering");
 		
+		//saving the state of an object in the file
 		File file = new File("student.txt");
 		FileOutputStream outputStream= new FileOutputStream(file);
 		ObjectOutputStream objectOutputStream=new ObjectOutputStream(outputStream);
-		objectOutputStream.write(obj);
+		objectOutputStream.writeObject(obj);
 	}
 	
 }
