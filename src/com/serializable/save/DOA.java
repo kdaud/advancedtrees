@@ -29,12 +29,14 @@ public class DOA {
 		FileOutputStream outputStream= new FileOutputStream(file);
 		ObjectOutputStream objectOutputStream=new ObjectOutputStream(outputStream);
 		objectOutputStream.writeObject(obj);
+		objectOutputStream.writeObject(obf);
 		
 		//retrieving the data from the file
 		FileInputStream fileInputStream= new FileInputStream(file);
 		ObjectInputStream objectInputStream= new ObjectInputStream(fileInputStream);
 		Student objs = (Student) objectInputStream.readObject();
 		System.out.println(objs.getName() + "\n" + objs.getCourse() + "\n" + objs.getStudentId());
+		System.out.println(obf.getName() + "\n " + obf.getCourse());
 	}
 	
 }
