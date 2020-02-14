@@ -4,6 +4,9 @@ import java.io.Serializable;
 
 public class Student implements Serializable {
 	
+	static {
+		System.out.println("Future Programmer");
+	}
 	private int studentId;
 	
 	private String name;

@@ -1,10 +1,14 @@
 package com.serializable.save;
 
-import java.io.IOException;
-
 public class Main {
 	
-	public static void main(String[] args) throws IOException {
+	static {
+		System.out.println("From the main Class");
+	}
+	
+	public static void main(String[] args) throws Exception {
+		System.out.println("--------------");
+		System.out.println();
 		DOA.dosave();
 	}
 	

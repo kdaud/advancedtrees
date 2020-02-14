@@ -9,6 +9,10 @@ import java.io.ObjectOutputStream;
 
 public class DOA {
 	
+	static {
+		System.out.println("From DAO Class");
+	}
+	
 	public static void dosave() throws IOException, Exception {
 		Student obj = new Student();
 		obj.setStudentId(10);
@@ -25,7 +29,7 @@ public class DOA {
 		FileInputStream fileInputStream= new FileInputStream(file);
 		ObjectInputStream objectInputStream= new ObjectInputStream(fileInputStream);
 		Student objs = (Student) objectInputStream.readObject();
-		System.out.println(objs.getName() + "\n " + objs.getCourse() + "\n" + objs.getStudentId());
+		System.out.println(objs.getName() + "\n" + objs.getCourse() + "\n" + objs.getStudentId());
 	}
 	
 }
