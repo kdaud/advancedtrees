@@ -36,7 +36,7 @@ public class DOA {
 		ObjectInputStream objectInputStream= new ObjectInputStream(fileInputStream);
 		Student objs = (Student) objectInputStream.readObject();
 		System.out.println(objs.getName() + "\n" + objs.getCourse() + "\n" + objs.getStudentId());
-		System.out.println(obf.getName() + "\n " + obf.getCourse());
+		System.out.println(obf.getName() + "\np " + obf.getCourse());
 	}
 	
 }
